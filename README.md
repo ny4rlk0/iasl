@@ -28,3 +28,4 @@ C:\ProgramData\chocolatey\lib\iasl\tools\iasl-win-20230628.zip
 C:\ASL
 build -t VS2019
 build -t VS2019 -D ASL_COMPILER_PATH=C:\ASL -D ASL_COMPILER_VERSION=20230628
+build all -t VS2019 -D ASL_COMPILER_PATH=C:\ASL -D ASL_COMPILER_VERSION=20230628 -p OvmfPkg/OvmfPkgX64.dsc -b RELEASE -a X64 -n 0
